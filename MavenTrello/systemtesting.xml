@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Systemtesting">
+  <test thread-count="3" name="systemtesting">
+  <groups>
+  <run>
+  <include name="systemtesting"></include>
+  <exclude name="smoketesting"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="TrelloEndToEndScenarios.TrelloBoards"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

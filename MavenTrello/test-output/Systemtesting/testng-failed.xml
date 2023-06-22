@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Systemtesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="systemtesting(failed)">
+    <groups>
+      <run>
+        <include name="systemtesting"/>
+        <exclude name="smoketesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TrelloEndToEndScenarios.TrelloBoards">
+        <methods>
+          <include name="trelloBoardPageCheck"/>
+          <include name="trelloCreateAndDeleteBoard"/>
+          <include name="trelloCreateMultipleListAndSwapInCreatedBoard"/>
+        </methods>
+      </class> <!-- TrelloEndToEndScenarios.TrelloBoards -->
+    </classes>
+  </test> <!-- systemtesting(failed) -->
+</suite> <!-- Failed suite [Systemtesting] -->

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Bords Title Text Feild is visible ]]>
+    </line>
+    <line>
+      <![CDATA[Bords Title Text Feild is visible ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-22T09:27:08 IST" name="FullRegression" finished-at="2023-06-22T09:29:20 IST" duration-ms="131585">
+    <groups>
+      <group name="smoketesting">
+        <method signature="TrelloBoards.trelloHomePage()[pri:1, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" name="trelloHomePage" class="TrelloEndToEndScenarios.TrelloBoards"/>
+        <method signature="TrelloBoards.trelloHomePageCheck()[pri:2, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" name="trelloHomePageCheck" class="TrelloEndToEndScenarios.TrelloBoards"/>
+      </group> <!-- smoketesting -->
+      <group name="systemtesting">
+        <method signature="TrelloBoards.trelloBoardPageCheck()[pri:3, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" name="trelloBoardPageCheck" class="TrelloEndToEndScenarios.TrelloBoards"/>
+        <method signature="TrelloBoards.trelloCreateAndDeleteBoard()[pri:4, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" name="trelloCreateAndDeleteBoard" class="TrelloEndToEndScenarios.TrelloBoards"/>
+        <method signature="TrelloBoards.trelloCreateMultipleListAndSwapInCreatedBoard()[pri:5, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" name="trelloCreateMultipleListAndSwapInCreatedBoard" class="TrelloEndToEndScenarios.TrelloBoards"/>
+      </group> <!-- systemtesting -->
+    </groups>
+    <test started-at="2023-06-22T09:27:08 IST" name="Regression" finished-at="2023-06-22T09:29:20 IST" duration-ms="131585">
+      <class name="TrelloEndToEndScenarios.TrelloBoards">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:27:08 IST" name="configBeforeMethod" finished-at="2023-06-22T09:27:15 IST" duration-ms="7294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="trelloHomePage()[pri:1, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:27:15 IST" name="trelloHomePage" finished-at="2023-06-22T09:27:17 IST" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trelloHomePage -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:27:17 IST" name="configAfterMethod" finished-at="2023-06-22T09:27:21 IST" duration-ms="3828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:27:21 IST" name="configBeforeMethod" finished-at="2023-06-22T09:27:27 IST" duration-ms="5842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="trelloHomePageCheck()[pri:2, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:27:27 IST" name="trelloHomePageCheck" finished-at="2023-06-22T09:27:30 IST" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trelloHomePageCheck -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:27:30 IST" name="configAfterMethod" finished-at="2023-06-22T09:27:33 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:27:33 IST" name="configBeforeMethod" finished-at="2023-06-22T09:27:40 IST" duration-ms="7384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="trelloBoardPageCheck()[pri:3, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:27:40 IST" name="trelloBoardPageCheck" finished-at="2023-06-22T09:28:00 IST" duration-ms="20218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trelloBoardPageCheck -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:28:00 IST" name="configAfterMethod" finished-at="2023-06-22T09:28:04 IST" duration-ms="3442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:28:04 IST" name="configBeforeMethod" finished-at="2023-06-22T09:28:10 IST" duration-ms="6767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="trelloCreateAndDeleteBoard()[pri:4, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:28:10 IST" name="trelloCreateAndDeleteBoard" finished-at="2023-06-22T09:28:37 IST" duration-ms="26755" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Bords Title Text Feild is visible ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- trelloCreateAndDeleteBoard -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:28:37 IST" name="configAfterMethod" finished-at="2023-06-22T09:28:41 IST" duration-ms="3629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:28:41 IST" name="configBeforeMethod" finished-at="2023-06-22T09:28:47 IST" duration-ms="6312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="trelloCreateMultipleListAndSwapInCreatedBoard()[pri:5, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:28:47 IST" name="trelloCreateMultipleListAndSwapInCreatedBoard" finished-at="2023-06-22T09:29:16 IST" duration-ms="28764" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Bords Title Text Feild is visible ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- trelloCreateMultipleListAndSwapInCreatedBoard -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:TrelloEndToEndScenarios.TrelloBoards@7133da86]" started-at="2023-06-22T09:29:16 IST" name="configAfterMethod" finished-at="2023-06-22T09:29:20 IST" duration-ms="3634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+      </class> <!-- TrelloEndToEndScenarios.TrelloBoards -->
+    </test> <!-- Regression -->
+  </suite> <!-- FullRegression -->
+</testng-results>
